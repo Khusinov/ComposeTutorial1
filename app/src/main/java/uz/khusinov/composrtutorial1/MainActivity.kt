@@ -65,6 +65,7 @@ fun Greeting(msg: Message, modifier: Modifier = Modifier) {
                 text = msg.body ,
                 modifier = modifier
             )
+
         }  
     }
     
