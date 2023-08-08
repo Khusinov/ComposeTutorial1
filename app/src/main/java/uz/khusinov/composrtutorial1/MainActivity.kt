@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting(Message("Shaxriyor" , "Programmer"))
+                    Greeting(Message("" , "Programmer"))
                 }
             }
         }
@@ -65,7 +65,8 @@ fun Greeting(msg: Message, modifier: Modifier = Modifier) {
                 text = msg.body ,
                 modifier = modifier
             )
-            Text(text = "smt")
+            Text(text = "Take a lot at this beautiful text" ,
+            modifier = modifier)
 
         }  
     }
